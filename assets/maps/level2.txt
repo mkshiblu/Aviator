@@ -1,0 +1,41 @@
+START             width height  Texture     Motion         Weapon
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+        |
+       |
+        |
+        |
+     E  |
+        |
+        |
+ BBB    |
+        |
+        |   
+  E  E   |
+        |
+   M     |
+  M      |
+ M       |///////////
+    E   |
+        | 
+     	|
+        |			1st screen	
+        |			0 planes 
+        | 		
+      	| 
+        | 
+   	 	|
+  	  	|
+    P   | 
+    
+END               w      h        tex       motion           weapon

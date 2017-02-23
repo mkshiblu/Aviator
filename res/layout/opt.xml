@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SOUND"
+        android:textColor="#58E3EF"
+        android:textSize="20dp" />
+
+  
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:paddingLeft="20dp" 
+         android:background="#DCE0E0" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/seekBar1"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/plane"
+        android:src="@drawable/enemy_5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:background="@drawable/plane"
+        android:src="@drawable/enemy_10" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:background="@drawable/plane"
+        android:src="@drawable/enemy_2" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/seekBar1"
+        android:background="@drawable/bluebtn"
+        android:onClick="onBackClick"
+        android:text="BACK" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:background="#DCE0E0" />
+
+    <RadioButton
+        android:id="@+id/RadioButton03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignLeft="@+id/radio1"
+        android:background="#DCE0E0" />
+
+    <RadioButton
+        android:id="@+id/RadioButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignLeft="@+id/RadioButton03"
+        android:background="#DCE0E0" />
+
+      <Spinner
+          android:id="@+id/spinner1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/textView2"
+          android:background="#DCE0E0"
+          android:entries="@array/country_arrays"
+          android:gravity="center" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/RadioButton02"
+          android:layout_below="@+id/RadioButton02"
+          android:layout_marginTop="27dp"
+          android:gravity="center|center_horizontal"
+          android:text="LEVEL"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textColor="#58E3EF"
+          android:textSize="40dp" />
+
+</RelativeLayout>

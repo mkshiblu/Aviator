@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aviator</string>
+    
+    <string name="action_settings">Settings</string>
+
+     <string-array name="country_arrays">
+        <item>LEVEL 1</item>
+        <item>LEVEL 2</item>
+        <item>LEVEL 3</item>
+        
+    </string-array>
+</resources>

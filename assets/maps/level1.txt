@@ -1,0 +1,122 @@
+START             width height  Texture     Motion         Weapon
+        |
+        |
+        |
+        |
+        |
+   E    |	10th screen
+        |
+        |
+        |		
+        |
+        |
+        |/////////////////// 
+        |
+  L     |
+      S |
+        |
+EEEDEEE |
+ EEEEE  |	9th screen
+  EEE   |
+   E    |
+        |		
+        |
+        |
+   L    |///////////////////
+        |
+        |
+ D   E  |
+        |
+ E   H  |
+        |	8th screen
+        |
+ S   E  |
+        |		
+        |
+        |
+EEEEEEEE|/////////////////// 
+        |
+        |
+     B  |
+        |
+  H     |
+        |	7th screen
+        |
+  U     |
+        |		
+        |
+    E   |
+   E E  |///////////////////
+  E E E |
+        |
+    L   |
+        |
+   D D  |
+        |	6th screen
+ S      |
+        |
+    U   |		
+   EEE  |
+        |
+    M   |///////////////////
+        |
+  E     |
+ E E    |
+  E     |
+	 S  |		5th screen
+		|
+    D	|
+        |
+        |		
+  L     |
+        |
+		|//////////////////////
+		|
+   E E  |
+   E   E|		e=12
+        |		4th screen
+    H	|
+		|
+	B	|
+        |		
+  E     |
+  E  M  |
+  E     |
+		|//////////////////////
+		|
+        |
+  U     |
+        |
+        |			
+ E		|		3rd screen
+		|
+	E	|
+        |
+  S   M |
+        |
+ E  E  	|//////////12 rows =1 screen
+     U  |
+       	|
+        |
+       	|
+        |		2nd Screen
+        |
+        |
+   B    |
+        |
+ E  E   |
+        |
+        |///////////
+        |
+        | 
+      	|
+  E     |			1st screen	
+        |			0 planes 
+        | 		
+      	| 
+        | 
+   	 	|
+  	  	|
+    P   | 
+    
+END               w      h        tex       motion           weapon

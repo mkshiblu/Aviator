@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/clear_selector"
+        android:onClick="onNewGameClick"
+        android:text="NEW GAME" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/clear_selector"
+        android:onClick="onOptionClick"
+        android:text="OPTION" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/clear_selector"
+        android:onClick="onExitClick"
+        android:text="EXIT" />
+
+</RelativeLayout>

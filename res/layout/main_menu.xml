@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+
+    tools:context=".MainActivity" >
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="120dp"
+         android:layout_height="40dp"
+         android:layout_alignRight="@+id/button1"
+         android:layout_below="@+id/button1"
+         android:layout_marginRight="21dp"
+         android:background="@drawable/button2"
+         android:onClick="option"
+         android:text="OPTIONS" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button2"
+        android:onClick="onExitClick"
+        android:text="EXIT" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/button2"
+        android:onClick="onNewGameClick"
+        android:text="NEW GAME" />
+
+</RelativeLayout>
